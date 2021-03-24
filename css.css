@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.web-width{
+    width: 1224px;
+    margin: auto;
+}
+
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.div-width{
+    width: 1100px;
+    margin: auto;
+
+}
+
+.my-menu-part{
+    background-color:#f5deb3 ;
+}
+.menu-left{
+    width: 30%;
+    float: left;
+}
+.menu-left img{
+    width: 145px;
+}
+.menu-right{
+    width: 70%;
+    float: right;
+}
+.menu-right ul {
+	list-style: none;
+	text-align: right;
+}
+.menu-right ul li {
+	display: inline-block;
+	
+}
+.menu-right ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 29px;
+	line-height: 80px;
+	border-right: 1px solid aliceblue;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.banner{
+    background: url(./intro-bg.jpg) no-repeat center ;
+    padding: 230px 0;
+    background-size: cover;
+}
+.benner-text {
+	text-align: center;
+	color: #518dd8;
+	
+}
+.benner-text h3 {
+	font-size: 37px;
+}
+.benner-text h5 {
+	font-size: 34px;
+	font-weight: 612;
+	margin: 33px 0;
+}
+.about-left{
+    width: 40%;
+    float: left;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.about-left img{
+    max-width: 335px;
+}
+.about-right{
+    width: 60%;
+    float: right;
+}
+.about-text {
+	margin-top: 91px;
+}
+.about-text h2 {
+	margin-bottom: 12px;
+	font-weight: 600;
+}
+.about-text h4 {
+	font-size: 23px;
+	margin-bottom: 18px;
+}
+.about-text p {
+	line-height: 3pc;
+}
+.about-part{
+    background: #ffffff;
+    padding-top: 6px;
+}
+.services{
+    background: #fffaf0;
+    padding: 100px 0;
+}
+.services-item {
+	width: 31%;
+	float: left;
+	text-align: center;
+	border: 2px dashed #d4d0ca;
+	margin: 8px;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 80px 0px 80px 0px;
+}
+.services-item span {
+	font-size: 25px;
+	display: inline-block;
+	color: #3498db;
+	border: 2px solid;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	border-radius: 18px 0px 18px 0px;
+	margin: 30px 0px;
+}
+.services-item h2 {
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.services-item p {
+	margin-bottom: 12px;
+}
+footer{
+    background: black;
+    padding: 25px;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+}
+.footer-left p {
+	color: #fff;
+	font-size: 20px;
+}
+.footer-right{
+    width: 50%;
+    float: right;
+}
+.footer-right ul {
+	list-style: none;
+	text-align: right;
+}
+.footer-right ul li {
+	display: inline-block;
+}
+.footer-right ul li a {
+	padding: 3px 14px;
+	display: inline-block;
+	font-size: 23px;
+	color: #fff;
+}
